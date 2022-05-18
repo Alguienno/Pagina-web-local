@@ -1,2 +1,7 @@
-# Pagina-web-local
-Acá tenéis un repositorio para que creeis una web en tu wifi pero solo la puedes usar los conectados a tu router (IMPORTANTE LEER README)
+Gracias por usar esto.
+¿Como se usa?
+Paso 1: apt update && apt upgrade
+Paso 2: pkg i git
+Paso 3: ls (Debe salir un archivo llamado Pagina-web-local o algo parecido a eso yo me referiré al directorio con Pagina-web-local)
+Paso 4: cd Pagina-web-local
+Paso 5: ls
