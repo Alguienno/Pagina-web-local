@@ -13,5 +13,5 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHan>
 
 if __name__ == "__main__":
 
-        httpd = HTTPServer(('localhost',int(argv[(argv[1])), SimpleHTTPRequestHandler)
+        httpd = HTTPServer(('localhost',int(argv[(argv[1])),SimpleHTTPRequestHandler)
         httpd.serve_forever()
