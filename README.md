@@ -15,3 +15,4 @@ Lo que está entre <> es algo que os podéis inventar y no pongáis los <>
 Se pueden abrir más de una página a la vez
 Para cerrarlas solo en la terminal CTRL+C
 Todo esto en termux
+NUEVA NOTA HASTA EL MOMENTO:Estoy mirando si realmente eres tú el único que lo puede abrir o todos lo conectados a tu router
