@@ -1,9 +1,9 @@
-from http.server import HTTPServer, BaseHTTPReque>
+from http.server import HTTPServer, BaseHTTPRequestHandler
 from sys import argv
 
 text = ' '.join(argv[2:])
 
-class SimpleHTTPRequestHandler(BaseHTTPRequestHan>
+class SimpleHTTPRequestHandler(BaseHTTPRequestHanestHandler):
 
     def do_GET(self):
         self.send_response(200)
@@ -13,5 +13,5 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHan>
 
 if __name__ == "__main__":
 
-        httpd = HTTPServer(('localhost',int(argv[(argv[1])),SimpleHTTPRequestHandler)
+        httpd = HTTPServer(('localhost', int(argv[1])), SimpleHTTPRequestHandler)
         httpd.serve_forever()
