@@ -3,7 +3,7 @@ from sys import argv
 
 text = ' '.join(argv[2:])
 
-class SimpleHTTPRequestHandler(BaseHTTPRequestHanestHandler):
+class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         self.send_response(200)
